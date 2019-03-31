@@ -14,7 +14,7 @@ body {
 
 .container {
   max-width: 640px;
-  margin: 0 auto;
+  margin: auto;
   clear: both;
 }
 
@@ -55,7 +55,7 @@ h3 {
   position: static;
   z-index: 99;
   width: 640px;
-  margin-bottom: 30px;
+  margin: 0;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
@@ -136,30 +136,22 @@ h3, h2 {
 /* portfolio page */
 
 .work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
+  max-width: 100%;
+  margin: auto;
   overflow: auto;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
 }
 
 .work img {
   max-width: 100%;
   height: auto;
-  border: 0 none;
   opacity: 0.8;
+  margin: auto;
 }
 
 .work h3 {
-  position: absolute;
   bottom: 20px;
   width: 100%;
   padding: 15px;
-  margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
   color: #ffffff;
@@ -171,8 +163,7 @@ h3, h2 {
 .auth-image {
   max-width: 100%;
   height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+  margin: auto;
 }
 
 /* contact page */
